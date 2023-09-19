@@ -1,0 +1,25 @@
+ .container {
+  margin-top: 30px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+ /*Styling for the "active" class */
+nav a.active {
+  color: #007bff; /* Highlight color for active link */
+  font-weight: bold; /* Make the active link bold */
+}
